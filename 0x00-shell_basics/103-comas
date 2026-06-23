@@ -1,0 +1,3 @@
+#!/bin/bash
+# List all files and directories, separated by commas, and end with a new line
+ls -aBpXv1 | tr '\n' ',' | sed 's/,$/\n/'
